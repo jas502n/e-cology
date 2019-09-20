@@ -41,8 +41,78 @@ exec() - Run a native application
 javap() - Print the methods and fields of an object, similar to the output of the Java javap command.
 setAccessibility() - Turn on unrestricted access to private and protected components.
 ```
+## bsh-2.0b4.jar command
+`/Users/ale/Desktop/bsh/weaver/WEB-INF/lib/bsh/commands`
 
+```
+.//object.bsh
+.//rm.bsh
+.//run.bsh
+.//print.bsh
+.//pwd.bsh
+.//error.bsh
+.//cat.bsh
+.//setClassPath.bsh
+.//setAccessibility.bsh
+.//exec.bsh
+.//setFont.bsh
+.//dirname.bsh
+.//exit.bsh
+.//source.bsh
+.//frame.bsh
+.//cp.bsh
+.//printBanner.bsh
+.//browseClass.bsh
+.//cd.bsh
+.//which.bsh
+.//setNameSpace.bsh
+.//workspaceEditor.bsh
+.//thinBorder.bsh
+.//bind.bsh
+.//bg.bsh
+.//save.bsh
+.//fontMenu.bsh
+.//getSourceFileInfo.bsh
+.//classBrowser.bsh
+.//load.bsh
+.//javap.bsh
+.//addClassPath.bsh
+.//server.bsh
+.//desktop.bsh
+.//importCommands.bsh
+.//mv.bsh
+.//setStrictJava.bsh
+.//eval.bsh
+.//dir.class
+.//getBshPrompt.bsh
+.//unset.bsh
+.//show.bsh
+.//getResource.bsh
+.//reloadClasses.bsh
+.//clear.bsh
+.//getClass.bsh
+.//makeWorkspace.bsh
+.//importObject.bsh
+.//sourceRelative.bsh
+.//getClassPath.bsh
+.//pathToFile.bsh
+.//setNameCompletion.bsh
+.//editor.bsh
+.//extend.bsh
+.//debug.bsh
+```
 
+## for Example : eval.bsh
+
+```
+a=5;
+eval("b=a*2");
+print(b);
+
+>>>
+10
+```
+![](./eval.jpg)
 ## 参考链接：
 
 http://www.beanshell.org/manual/bshmanual.html#Executable_scripts_under_Unix
