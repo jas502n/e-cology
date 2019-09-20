@@ -113,6 +113,37 @@ print(b);
 10
 ```
 ![](./eval.png)
+
+
+## exec.bsh
+```
+cat exec.bsh      
+
+/**
+	Start an external application using the Java Runtime exec() method.
+	Display any output to the standard BeanShell output using print().
+*/
+
+bsh.help.exec = "usage: exec( String arg )";
+
+exec( String arg )
+{
+	this.proc = Runtime.getRuntime().exec(arg);
+	this.din = new DataInputStream( proc.getInputStream() );
+	while( (line=din.readLine()) != null )
+		print(line);
+```
+![](exec.png)
+
+```
+1. exec("whoami")
+
+2. this.proc = Runtime.getRuntime().exec("whoami");	
+   this.din = new DataInputStream( proc.getInputStream() );
+   while( (line=din.readLine()) != null )
+   print(line);
+
+```
 ## 参考链接：
 
 http://www.beanshell.org/manual/bshmanual.html#Executable_scripts_under_Unix
