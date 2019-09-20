@@ -1,7 +1,10 @@
 # 泛微e-cology OA Beanshell组件远程代码执行
 
 ![](./set.jpg)
+## Windows
 ![](./whoami.jpg)
+## Linux
+![](./linux.jpg)
 
 
 ## Ps
