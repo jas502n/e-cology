@@ -112,7 +112,7 @@ print(b);
 >>>
 10
 ```
-![](./eval.jpg)
+![](./eval.png)
 ## 参考链接：
 
 http://www.beanshell.org/manual/bshmanual.html#Executable_scripts_under_Unix
