@@ -5,7 +5,7 @@
 ![](./whoami.jpg)
 ## Linux
 ![](./linux.jpg)
-
+![](./linux2.png)
 
 ## Ps
 ```
