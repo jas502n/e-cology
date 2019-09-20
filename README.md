@@ -144,6 +144,126 @@ exec( String arg )
    print(line);
 
 ```
+## 总结
+```
+./commands/object.bsh
+>>> bsh.help.object = "usage: object()";
+
+./commands/rm.bsh
+>>> bsh.help.rm = "usage: cd( path )";
+
+./commands/run.bsh
+>>> bsh.help.run= "usage: Thread run( filename )";
+
+./commands/run.bsh
+>>> 42:	this.bsh.help=extend(bsh.help);
+
+./commands/print.bsh
+>>> bsh.help.print = "usage: print( value )";
+
+./commands/cat.bsh
+>>> bsh.help.cat = "usage: cat( filename )";
+
+./commands/setClassPath.bsh
+>>> bsh.help.setClassPath= "usage: setClassPath( URL [] )";
+
+./commands/exec.bsh
+>>> bsh.help.exec = "usage: exec( String arg )";
+
+./commands/setFont.bsh
+>>> bsh.help.setFont = "usage: setFont( Component comp, int size )";
+
+./commands/dirname.bsh
+>>> bsh.help.cd = "usage: dirname( path )";
+
+./commands/exit.bsh
+>>> bsh.help.exit = "usage: exit()";
+
+./commands/source.bsh
+>>> bsh.help.source = "usage: source( filename | URL )";
+
+./commands/frame.bsh
+>>> bsh.help.frame = "usage: frame( Component component )";
+
+./commands/cp.bsh
+>>> bsh.help.cp = "usage: cp( fromFile, toFile )";
+
+./commands/cd.bsh
+>>> bsh.help.cd = "usage: cd( path )";
+
+./commands/which.bsh
+>>> bsh.help.which= "usage: which( classIdentifier | string | class )";
+
+./commands/setNameSpace.bsh
+>>> bsh.help.setNameSpace =
+
+./commands/bg.bsh
+>>> bsh.help.run= "usage: Thread bg( filename )";
+
+./commands/save.bsh
+>>> bsh.help.save = "usage: save( object, filename )";
+
+./commands/getSourceFileInfo.bsh
+>>> bsh.help.getSourceFileInfo = "usage: getSourceFileInfo()";
+
+./commands/load.bsh
+>>> bsh.help.load = "usage: load(filename)";
+
+./commands/javap.bsh
+>>> bsh.help.javap= "usage: javap( value )";
+
+./commands/addClassPath.bsh
+>>> bsh.help.addClassPath= "usage: addClassPath( string | URL )";
+
+./commands/server.bsh
+>>> bsh.help.server = "usage: server(int port)";
+
+./commands/importCommands.bsh
+>>> bsh.help.importCommands = "usage: importCommands( string )";
+
+./commands/mv.bsh
+>>> bsh.help.mv = "usage: mv( fromFile, toFile )";
+
+./commands/eval.bsh
+>>> bsh.help.eval = "usage: eval( String expression )";
+
+./commands/unset.bsh
+>>> bsh.help.unset = "usage: unset( name )";
+
+./commands/show.bsh
+>>> bsh.help.show = "usage: show()";
+
+./commands/getResource.bsh
+>>> bsh.help.getResource = "usage: getResource( String name )";
+
+./commands/reloadClasses.bsh
+>>> bsh.help.reloadClasses=
+
+./commands/getClass.bsh
+>>> bsh.help.getClass= "usage: getClass( String name )";
+
+./commands/importObject.bsh
+>>> bsh.help.importObject = "usage: importObject( Object )";
+
+./commands/getClassPath.bsh
+>>> bsh.help.getClassPath= "usage: getClassPath()";
+
+./commands/pathToFile.bsh
+>>> bsh.help.pathToFile = "usage: File pathToFile( String )";
+
+./commands/setNameCompletion.bsh
+>>> bsh.help.setNameCompletion= "usage: setNameCompletion( boolean )";
+
+./commands/editor.bsh
+>>> bsh.help.editor = "usage: editor()";
+
+./commands/extend.bsh
+>>> bsh.help.extend= "usage: extend( This parent )";
+
+./commands/debug.bsh
+>>> bsh.help.debug = "usage: debug()";
+
+```
 ## 参考链接：
 
 http://www.beanshell.org/manual/bshmanual.html#Executable_scripts_under_Unix
