@@ -41,6 +41,8 @@ exec() - Run a native application
 javap() - Print the methods and fields of an object, similar to the output of the Java javap command.
 setAccessibility() - Turn on unrestricted access to private and protected components.
 ```
+![](./cat.png)
+
 ## bsh-2.0b4.jar command
 `/Users/ale/Desktop/bsh/weaver/WEB-INF/lib/bsh/commands`
 
